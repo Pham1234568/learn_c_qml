@@ -13,7 +13,7 @@ string getFood(Foods type){
     switch(type){  //type 2 kiểu
         case Appetizers: return "khai vi";
         case Main_course: return "Main_dish";
-        case Dessert: return "Dessert";
+        case Dessert: return "Dessert__";
         default: return " Outside food";
     }
 }
